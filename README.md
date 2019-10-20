@@ -29,8 +29,6 @@ You need to generate Access Token for first time.
  $ python mytwitterbot_status.py 
  
 
-
-
 6.You can also use any file instead of quotes.txt . To do that,you need to open mytwitterbot_status.py file and edit this line my_file=open('quotes.txt','r') and enter your desired filename instead of 'sample.txt' .
 
 
@@ -40,12 +38,10 @@ You need to generate Access Token for first time.
 
 
 
+# Twitter Bot That retweets, likes, and follows
 
-
-
-# Twitter bot which retweet,like,and follow
-
-8.Use mytwitterbot_retweet.py file for a Twitter bot which retweet tweets based on particular hashtag (script provided here use #100DaysofCode ),like tweets and follow the user who tweeted it .Set your desired Bot settings such as QUERY,LIKE,FOLLOW in config.py file  To run twitterbot_retweet.py ,use this command :
+8.Use mytwitterbot_retweet.py file for a Twitter bot which retweet tweets based on particular hashtag (script provided here use #100DaysofCode), like tweets and follow the user who tweeted it. 
+Set your desired Bot settings such as QUERY, LIKE, FOLLOW in mytwitterbot_status.py file  To run mytwitterbot_retweet.py, use this command :
 
 $ python mytwitterbot_retweet.py
 
