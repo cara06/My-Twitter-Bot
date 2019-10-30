@@ -1,14 +1,15 @@
-# My Twitter Bot
+# My-Twitter-Bot
 
 Python Twitter Bot 
 
-1.To use the Twitter bot,you need to have Python 3 installed on your system.
-This bot uses tweepy module.
-You can install tweepy by using pip command as follows:
+1.iN order to use the Twitter bot, you need to have Python 3 installed on your system.
+This bot uses tweepy module which can be installed using the pip command as follows:
+
 
  $ pip install tweepy
 
-2.Next,you create a new app on Twitter. 
+
+2.Next, you create a new app on Twitter. 
 This can be done by either using your existing account or you can create a new one.
 Creating a new account for a bot is better so that your original Twitter account does not get banned.
 To create a new application on Twitter, visit the URL below:
@@ -26,14 +27,18 @@ You need to generate Access Token for first time.
 5.Now,you can run  mytwitterbot_status.py file to run bot which will tweet The Zen of Python texts by using this command :
 
 
+
+
  $ python mytwitterbot_status.py 
  
+
+
 
 6.You can also use any file instead of quotes.txt . To do that,you need to open mytwitterbot_status.py file and edit this line my_file=open('quotes.txt','r') and enter your desired filename instead of 'sample.txt' .
 
 
 
-7.Enjoy the service of Twitter Bot which tweets texts of a file .You can also alter sleep time in script as you wish.
+7.Enjoy the service of Twitter Bot which tweets texts of a file. You can also alter sleep time in script as you wish.
 
 
 
@@ -48,13 +53,12 @@ $ python mytwitterbot_retweet.py
 
 
 
-9.You can use any desired hashtag(such as #bbnaija ) .Just edit hashtag '#100DaysofCode' in mytwitterbot_retweet.py file with whatever you want.
+9.You can use any desired hashtag(such as #bbnaija ) .Just edit the hashtag '#100DaysofCode' in mytwitterbot_retweet.py file with whatever you want. 
+
+10. Edit the code to allow your bot follow or not to follow users. 
 
 
-10. You can also edit code if you do not want your bot to follow  users or you do not want your bot to like tweets.
-
-
-11.You can also deploy Twitter bot on online based servers if you want to run the bot 24 hours continuously. Take care of sleep/delay if you run bot the whole day.You should try to use large sleep time so that your account does not get banned.
+11.If you want to run the bot 24/7, be sure to deploy on an online server like Heroku or AWS, and be sure to set a large sleeptime so that your account does not get banned for abnormal activities. 
 
 
 
